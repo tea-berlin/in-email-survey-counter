@@ -1,0 +1,29 @@
+{
+  "name": "in-email-survey-counter",
+  "version": "1.0.0",
+  "description": "### Context",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea-berlin/in-email-survey-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tea-berlin/in-email-survey-counter/issues"
+  },
+  "homepage": "https://github.com/tea-berlin/in-email-survey-counter#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
