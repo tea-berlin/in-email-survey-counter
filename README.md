@@ -18,3 +18,15 @@ The page registers the hits and sends the attributes received via the urls to a 
 
 You cannot push directly to the `main` branch. Please push to the branch of the issue you are working on and create a pull request if you want to merge your changes into `main`.
 
+### Setup
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Rename the `.env.example` file to `.env`
+    - replace the values of each variable with the required values
+4. Run `npm start` to start the server
+
+Here are a few resources to explore:
+- [node-postgres documentation](https://node-postgres.com/features/connecting)
+- [Creating a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+- [Example Node-databse Project](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/#connectingtoapostgresdatabase)
